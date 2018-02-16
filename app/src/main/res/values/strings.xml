@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">GCU</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="menu_gen_title_courses">Courses</string>
+    <string name="menu_gen_title_placement">Placement</string>
+    <string name="menu_gen_title_contact">Contact</string>
+</resources>

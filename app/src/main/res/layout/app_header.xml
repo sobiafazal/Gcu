@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/app_header"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:background="@drawable/app_theme_bg"
+    android:elevation="4dp"
+    android:orientation="horizontal"
+    android:padding="10dp"
+    android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+    app:layout_scrollFlags="enterAlways|scroll"
+    app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+    <android.support.v7.widget.AppCompatImageButton
+        android:id="@+id/app_toolbar_btn_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorTransparent"
+        android:src="@drawable/ic_toolbar_menu" />
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/app_toolbar_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        app:srcCompat="@mipmap/ic_gcu_logo" />
+
+    <TextView
+        android:id="@+id/app_toolbar_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginStart="15dp"
+        android:maxLength="20"
+        android:text="Garden City"
+        android:textColor="@color/colorWhite"
+        android:textSize="20sp" />
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/app_toolbar_btn_sign_out"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|end"
+        app:srcCompat="@drawable/ic_header_sign_out" />
+</android.support.v7.widget.Toolbar>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/menu_gen_courses"
+          android:title="@string/menu_gen_title_courses"
+          android:icon="@drawable/ic_menu_gen_courses"
+        />
+    <item android:id="@+id/menu_gen_placement"
+          android:title="@string/menu_gen_title_placement"
+          android:icon="@drawable/ic_menu_gen_placement"
+        />
+    <item android:id="@+id/menu_gen_360_view"
+          android:title="Campus 360"
+          android:icon="@drawable/ic_menu_gen_360"
+          />
+    <item android:id="@+id/menu_gen_contact"
+          android:title="@string/menu_gen_title_contact"
+          android:icon="@drawable/ic_menu_gen_contact"
+        />
+</menu>
